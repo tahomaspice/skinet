@@ -1,17 +1,19 @@
 [
   {
-    "Name": "Angular Speedster Board 2000",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 200,
-    "PictureUrl": "images/products/sb-ang1.png",
-    "ProductTypeId": 1,
+    "Name": "Aji Amarillo BBQ Sauce",
+    "Description": "Our Aji Amarillo BBQ Sauce is a  Sweet Smokey BBQ Sauce with a nice little kick thanks to our Aji Amarillo Hot Peppers grown on our own Pepper Farm here in Tacoma WA. Ingredients: Tomato Sauce, Brown Sugar, Molasses, Apple Cider Vinegar, Water, Aji Amarillo Pepper, Spices (Mustard, Paprika, Garlic, Salt, Black Pepper)",
+
+
+    "Price": 12,
+    "PictureUrl": "images/products/AAbbq2.jpg",
+    "ProductTypeId": 2,
     "ProductBrandId": 1
   },
   {
-    "Name": "Green Angular Board 3000",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 150,
-    "PictureUrl": "images/products/sb-ang2.png",
+    "Name": "Bahamian Goat Hot Sauce",
+    "Description": "Our Bahamian Goat Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a nice kick. It is made with all fresh picked Bahamian Goat peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Bahamian Goat Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/BGHS1.jpg",
     "ProductTypeId": 1,
     "ProductBrandId": 1
   },
