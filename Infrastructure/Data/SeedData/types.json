@@ -1,18 +1,18 @@
 [
   {
     "Id": 1,
-    "Name": "Boards"
+    "Name": "Hot Sauce"
   },
   {
     "Id": 2,
-    "Name": "Hats"
+    "Name": "BBQ Sauce"
   },
   {
     "Id": 3,
-    "Name": "Boots"
+    "Name": "Salsa"
   },
   {
     "Id": 4,
-    "Name": "Gloves"
+    "Name": "Gifts"
   }
 ]
