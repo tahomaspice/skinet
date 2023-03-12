@@ -10,6 +10,48 @@
     "ProductBrandId": 1
   },
   {
+    "Name": "Smokey Mango BBQ Sauce",
+    "Description": "Our Smokey Mango BBQ Sauce is a  Sweet Spicy Smokey BBQ Sauce with Mango and Peach. Its smokey Aji Mango peppers pair wonderfully with the Peach and Mango fruit. And this one has a pretty serious kick!! Ingredients: Tomato Sauce, Brown Sugar, Molasses, Apple Cider Vinegar, Water, Aji Mango Pepper, Mango, Peach, Spices (Mustard, Paprika, Garlic, Salt, Black Pepper)",
+
+
+    "Price": 12,
+    "PictureUrl": "images/products/SMbbq3.jpg",
+    "ProductTypeId": 2,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Jabba da Hutt Hot Sauce",
+    "Description": "Our Jabba da Hutt Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a nice kick. The Jabba da Hutt pepper is another creation from Jack Skaggs, this beauty is a cross between a Fatalii and a Trinidad Scorpion. Our sauce is made with all fresh picked Jabba da Hutt peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Jabba da Hutt  Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/JDHHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Sugar Rush Hot Sauce",
+    "Description": "Our Sugar Rush Hot Sauce is a Sweet, Tangy Hot Sauce with an amazing flavor and a gentle kick. It is made with all fresh picked Sugar Rush peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Sugar Rush Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Paprika, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/SRHS2.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Devils Tongue Hot Sauce",
+    "Description": "Our Devil’s Tongue Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a extreme kick. It is made with all fresh picked Devil’s Tongue peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Devil’s Tongue  Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/DTHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Dorset Naga Hot Sauce",
+    "Description": "Our Dorset Naga Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a wonderful kick. It is made with all fresh picked Dorset Naga Orange peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Dorset Naga Orange  Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/DNHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
     "Name": "Bahamian Goat Hot Sauce",
     "Description": "Our Bahamian Goat Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a nice kick. It is made with all fresh picked Bahamian Goat peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Bahamian Goat Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
     "Price": 10,
@@ -18,131 +60,108 @@
     "ProductBrandId": 1
   },
   {
-    "Name": "Core Board Speed Rush 3",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/sb-core1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Net Core Super Board",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 300,
-    "PictureUrl": "images/products/sb-core2.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "React Board Super Whizzy Fast",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 250,
-    "PictureUrl": "images/products/sb-react1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Typescript Entry Board",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 120,
-    "PictureUrl": "images/products/sb-ts1.png",
-    "ProductTypeId": 1,
-    "ProductBrandId": 5
-  },
-  {
-    "Name": "Core Blue Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
+    "Name": "Green Reaper Hot Sauce",
+    "Description": "Our Green Reaper Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a nice kick. It is made with all fresh picked Carolina Reaper peppers picked green from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Reaper Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
     "Price": 10,
-    "PictureUrl": "images/products/hat-core1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Green React Woolen Hat",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 8,
-    "PictureUrl": "images/products/hat-react1.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Purple React Woolen Hat",
-    "Description": "Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 15,
-    "PictureUrl": "images/products/hat-react2.png",
-    "ProductTypeId": 2,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Blue Code Gloves",
-    "Description": "Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus.",
-    "Price": 18,
-    "PictureUrl": "images/products/glove-code1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Green Code Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 15,
-    "PictureUrl": "images/products/glove-code2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 3
-  },
-  {
-    "Name": "Purple React Gloves",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa.",
-    "Price": 16,
-    "PictureUrl": "images/products/glove-react1.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Green React Gloves",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 14,
-    "PictureUrl": "images/products/glove-react2.png",
-    "ProductTypeId": 4,
-    "ProductBrandId": 4
-  },
-  {
-    "Name": "Redis Red Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 250,
-    "PictureUrl": "images/products/boot-redis1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 6
-  },
-  {
-    "Name": "Core Red Boots",
-    "Description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.",
-    "Price": 189.99,
-    "PictureUrl": "images/products/boot-core2.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Core Purple Boots",
-    "Description": "Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci.",
-    "Price": 199.99,
-    "PictureUrl": "images/products/boot-core1.png",
-    "ProductTypeId": 3,
-    "ProductBrandId": 2
-  },
-  {
-    "Name": "Angular Purple Boots",
-    "Description": "Aenean nec lorem. In porttitor. Donec laoreet nonummy augue.",
-    "Price": 150,
-    "PictureUrl": "images/products/boot-ang2.png",
-    "ProductTypeId": 3,
+    "PictureUrl": "images/products/GRHS2.jpg",
+    "ProductTypeId": 1,
     "ProductBrandId": 1
   },
   {
-    "Name": "Angular Blue Boots",
-    "Description": "Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.",
-    "Price": 180,
-    "PictureUrl": "images/products/boot-ang1.png",
-    "ProductTypeId": 3,
+    "Name": "Smokey Bahamian Beast Hot Sauce",
+    "Description": "Our Smokey Bahamian Beast Hot Sauce is a Tangy, Smokey, Slightly Sweet Hot Sauce with an amazing flavor and a serious kick. It is made with Bahamian Beast peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Bahamian Beast Hot Peppers, Bell Pepper, Onion, Garlic, Cumin, Salt, Paprika.",
+    "Price": 10,
+    "PictureUrl": "images/products/SBBHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Jigsaw Hot Sauce",
+    "Description": "Our Jigsaw Hot Sauce is a Super Hot Smokey, Tangy,  Hot Sauce with a serious kick. It’s made with all fresh ‘Gourmet Fatalii Jigsaw’ Peppers from our own Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Jigsaw  Peppers, Onion, Bell Pepper, Garlic, Lime Juice, Cumin,  Smoked Paprika, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/JHS2.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Island Ghost Hot Sauce",
+    "Description": "Our Island Ghost Hot Sauce is a Sweet, Fruity Hot Sauce with a serious kick and a great Island flavor. It’s made with ‘Ghost’ Peppers from our own Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Ghost  Peppers, Pineapple, Mango, Onion, Bell Pepper, Garlic, Lime Juice, Cumin,  Paprika, Salt, Citric Acid.",
+    "Price": 10,
+    "PictureUrl": "images/products/IGHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Faces XX Hot Sauce",
+    "Description": "Our Faces XX Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a nice kick. It is made with all fresh picked Faces XX peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Faces XX  Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/FXXHS2.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Devil's Nagabrain Hot Sauce",
+    "Description": "Our Devil's Nagabrain Hot Sauce is a Tangy, Slightly Sweet Hot Sauce with an amazing flavor and a serious kick. It is made with all fresh picked Devil's Nagabrain peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Devil's Nagabrain Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/DNBHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Red Reaper Hot Sauce",
+    "Description": "Our Red Reaper Hot Sauce is a Tangy, Slightly Sweet, Super Hot- Hot Sauce with an amazing flavor and a extreme kick. It is made with all fresh picked Carolina Reaper peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Reaper Hot Peppers, Bell Pepper, Onion, Garlic, Cumin, Salt, Paprika.",
+    "Price": 10,
+    "PictureUrl": "images/products/RRHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Dragon's Breath Hot Sauce",
+    "Description": "Our Dragon's Breath Hot Sauce is a searing taste explosion with lots of heat. Our hottest pepper by far, with a flavor that matches. It is made with all fresh picked Dragon's Breath peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Dragon's Breath Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/RRHS1.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Sugar Rush Salsa",
+    "Description": "Sugar Rush is a sweet mild Salsa with loads of amazing flavor. Ingredients: Tomatoes, Bell Pepper, Onion, Tomato Sauce, Pineapple, Peach, Sugar Rush Hot Peppers, Garlic, Cumin, Black Pepper, Salt, Citric Acid.",
+    "Price": 10,
+    "PictureUrl": "images/products/sugarRushSalsa2.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Peach Ghost Scorpion Salsa",
+    "Description": "Sugar Rush is a sweet mild Salsa with loads of amazing flavor. Ingredients: Tomatoes, Bell Pepper, Onion, Tomato Sauce, Mango, Peach, Peach Ghost Scorpion Hot Peppers, Garlic, Cumin, Black Pepper, Salt, Citric Acid.",
+    "Price": 10,
+    "PictureUrl": "images/products/PGSsalsa6.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Carolina Reaper Salsa",
+    "Description": "Carolina Reaper Salsa is an extra-spicy Salsa with amazing flavor. Ingredients: Tomatoes, Bell Pepper, Onion, Tomato Sauce, Carolina Reaper Hot Peppers, Garlic, Cumin, Black Pepper, Salt, Citric Acid.",
+    "Price": 10,
+    "PictureUrl": "images/products/CRsalsa5.jpg",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Hot Sauce Gift Box",
+    "Description": "Our Bahamian Goat Hot Sauce is a Tangy, Fruity, Slightly Sweet Hot Sauce with an amazing flavor and a nice kick. It is made with all fresh picked Bahamian Goat peppers from our Pepper Farm here in Tacoma WA. Ingredients: Water, Apple Cider Vinegar, White Vinegar, Bahamian Goat Peppers, Bell Pepper, Onion, Garlic, Lime Juice, Cumin, Salt",
+    "Price": 10,
+    "PictureUrl": "images/products/HSGB.png",
+    "ProductTypeId": 1,
+    "ProductBrandId": 1
+  },
+  {
+    "Name": "Hot Sauce Sampler Gift Set",
+    "Description": "Handmade Wooden Gig Caddy with 6 mini hot sauces",
+    "Price": 40,
+    "PictureUrl": "images/products/IMG_2411.png",
+    "ProductTypeId": 1,
     "ProductBrandId": 1
   }
+    
 ]
