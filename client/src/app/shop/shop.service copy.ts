@@ -1,7 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import { Pagination } from '../models/pagination';
-import { Product } from '../models/product';
+import { Pagination } from '../shared/models/pagination';
+import { Product } from '../shared/models/product';
 
 @Injectable({
   providedIn: 'root'
