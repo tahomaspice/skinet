@@ -10,6 +10,7 @@
 *.userosscache
 *.sln.docstates
 
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
@@ -417,6 +418,7 @@ autom4te.cache/
 *.tar.gz
 tarballs/
 test-results/
+*.zip
 
 # Mac bundle stuff
 *.dmg
