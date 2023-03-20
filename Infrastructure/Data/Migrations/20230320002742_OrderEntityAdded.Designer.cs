@@ -8,10 +8,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Infrastructure.Migrations
+namespace Infrastructure.Data.Migrations
 {
     [DbContext(typeof(StoreContext))]
-    [Migration("20230319213505_OrderEntityAdded")]
+    [Migration("20230320002742_OrderEntityAdded")]
     partial class OrderEntityAdded
     {
         /// <inheritdoc />
