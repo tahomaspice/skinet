@@ -6,7 +6,7 @@ import { TestErrorComponent } from './core/test-error/test-error.component';
 import { HomeComponent } from './home/home.component';
 import { ProductDetailsComponent } from './shop/product-details/product-details.component';
 import { ShopComponent } from './shop/shop.component';
-import { authGuard } from './core/guards/auth.guard';
+import { AuthGuard } from './core/guards/authGuard';
 
 
 const routes: Routes = [
@@ -16,10 +16,7 @@ const routes: Routes = [
   {path: 'server-error', component: ServerErrorComponent},
   {path: 'shop', loadChildren: () => import('./shop/shop.module').then(m => m.ShopModule)},
   {path: 'basket', loadChildren: () => import('./basket/basket.module').then(m => m.BasketModule)},
-  {path: 'checkout', 
-    canActivate: [authGuard],
-    loadChildren: () => import('./checkout/checkout.module').then(m => m.CheckoutModule)
-  },
+  {path: 'checkout', canActivate: [AuthGuard], loadChildren: () => import('./checkout/checkout.module').then(m => m.CheckoutModule)},
   {path: 'account', loadChildren: () => import('./account/account.module').then(m => m.AccountModule)},
   {path: '**', redirectTo: '', pathMatch: 'full'},
 ];
