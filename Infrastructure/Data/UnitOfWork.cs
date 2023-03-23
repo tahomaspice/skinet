@@ -35,6 +35,8 @@ namespace Infrastructure.Data
             {
                 var repositoryType = typeof(GenericRepository<>);
                 var repositoryInstance = Activator.CreateInstance(repositoryType.MakeGenericType(typeof(TEntity)), _context);
+
+                _repositories.Add(type, repositoryInstance);
             }
             return (IGenericRepository<TEntity>) _repositories[type];
         }

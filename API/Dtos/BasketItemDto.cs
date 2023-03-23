@@ -15,8 +15,8 @@ namespace API.Dtos
         [Required]
         [Range(0.1, double.MaxValue, ErrorMessage = "Price must be > 0")]
         public decimal Price { get; set; }
-        [Range(1, double.MaxValue, ErrorMessage = "Qty must be > 0")]
         [Required]
+        [Range(1, double.MaxValue, ErrorMessage = "Qty must be > 0")]
         public int Quantity { get; set; }
         [Required]
         public string PictureUrl { get; set; }

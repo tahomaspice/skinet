@@ -24,9 +24,10 @@ namespace Infrastructure.Sevices
             var basket = await _basketRepo.GetBasketAsync(basketId);
             // get items
             var items = new List<OrderItem>();
+            
             foreach (var item in basket.Items)
             {
-                var productItem = await _unitOfWork.Repository<Product>().GetByIdAsync(item.Id);
+            var productItem = await _unitOfWork.Repository<Product>().GetByIdAsync(item.Id);
                 var itemOrdered = new ProductItemOrdered(productItem.Id, productItem.Name, productItem.PictureUrl);
                 var orderItem = new OrderItem(itemOrdered, productItem.Price, item.Quantity);
                 items.Add(orderItem);
@@ -39,7 +40,7 @@ namespace Infrastructure.Sevices
             
             // create order
             var order = new Order(items, buyerEmail, shippingAddress, deliveryMethod, subtotal);
-            _unitOfWork.Repository<Order>().Add(order);
+                _unitOfWork.Repository<Order>().Add(order);
             
             // save to DB
             var result = await _unitOfWork.Complete();
