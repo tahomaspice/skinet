@@ -7,9 +7,9 @@
         <div class="container">
             <div class="row">
                 
-                <app-basket-summary>
+                <app-basket-summary
                     (addItem)="incrementQuantity($event)"
-                    (removeItem)="removeItem($event)"
+                    (removeItem)="removeItem($event)">
                 </app-basket-summary>
 
             </div>

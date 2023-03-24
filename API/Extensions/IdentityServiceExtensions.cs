@@ -1,10 +1,11 @@
-using Infrastructure.Identity;
+using Infrastructure.Data;
 using Core.Entities.Identity;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using Infrastructure.Identity;
 
 namespace API.Extensions
 {
@@ -25,8 +26,7 @@ namespace API.Extensions
         .AddEntityFrameworkStores<AppIdentityDbContext>()
         .AddSignInManager<SignInManager<AppUser>>();
 
-        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme)
-        .AddJwtBearer(options =>
+        services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(options =>
         {
           options.TokenValidationParameters = new TokenValidationParameters
           {
@@ -38,9 +38,11 @@ namespace API.Extensions
 
           };
         });
+        
+
         services.AddAuthorization();
 
         return services;
-      }  
+      } 
     }
 }
