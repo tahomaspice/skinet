@@ -23,5 +23,6 @@ export interface Order {
     shippingPrice: number;
     orderItems: OrderItem[];
     subtotal: number;
+    total: number;
     status: string;
 }
