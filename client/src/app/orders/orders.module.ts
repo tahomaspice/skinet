@@ -6,10 +6,11 @@ import { OrdersRoutingModule } from './orders-routing.module';
 
 
 
+
 @NgModule({
   declarations: [
     OrdersComponent,
-    OrderDetailedComponent
+    OrderDetailedComponent,
   ],
   imports: [
     CommonModule,

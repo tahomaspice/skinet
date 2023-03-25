@@ -18,6 +18,8 @@ const routes: Routes = [
   {path: 'basket', loadChildren: () => import('./basket/basket.module').then(m => m.BasketModule)},
   {path: 'checkout', canActivate: [AuthGuard], loadChildren: () => import('./checkout/checkout.module').then(m => m.CheckoutModule)},
   {path: 'orders', canActivate: [AuthGuard], loadChildren: () => import('./orders/orders.module').then(mod => mod.OrdersModule), data: { breadcrumb: 'Orders' }},
+  {path: 'blogs', canActivate: [AuthGuard], loadChildren: () => import('./blogs/blogs.module').then(bmod => bmod.BlogsModule), data: { breadcrumb: 'Blogs' }},
+  
   {path: 'account', loadChildren: () => import('./account/account.module').then(mod => mod.AccountModule), data: { breadcrumb: {skip: true }}},
   
   {path: '**', redirectTo: '', pathMatch: 'full'},
