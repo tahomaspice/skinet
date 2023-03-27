@@ -17,7 +17,7 @@ import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
   ],
   imports: [
     
-    BrowserModule,
+    //BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,

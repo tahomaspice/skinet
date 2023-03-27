@@ -4,6 +4,7 @@ using Infrastructure.Data;
 using Infrastructure.Sevices;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using StackExchange.Redis;
 
 namespace API.Extensions
@@ -23,6 +24,8 @@ namespace API.Extensions
                 var options = ConfigurationOptions.Parse(config.GetConnectionString("Redis"));
                 return ConnectionMultiplexer.Connect(options);
             });
+            services.AddSingleton<IResponseCacheService, ResponseCacheService>();
+            
             services.AddScoped<IBasketRepository, BasketRepository>();
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<IPaymentService, PaymentService>();
